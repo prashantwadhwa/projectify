@@ -74,7 +74,20 @@ textarea {
   margin: 10px 0;
 }
 
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 1em; /* Adjust the font size for smaller screens */
+  }
 
+  .btn {
+    font-size: 0.9em; /* Adjust button font size */
+  }
+
+  /* Add more responsive styles as needed */
+}
+
+/* Hide scrollbar on WebKit browsers */
 ::-webkit-scrollbar {
   display: none;
 }
